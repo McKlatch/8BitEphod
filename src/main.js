@@ -9,7 +9,10 @@ import VueAnalytics from 'vue-analytics'
 Vue.use(vmodal)
 Vue.use(VueAnalytics, {
   id: 'UA-11104776-8',
-  router
+  router,
+  debug: {
+    sendHitTask: process.env.NODE_ENV === 'production'
+  }
 })
 
 Vue.config.productionTip = false

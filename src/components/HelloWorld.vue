@@ -16,6 +16,9 @@
         <a href="http://mathmaker.8bitephod.com/" rel="noopener noreferrer" target="_blank">
           <button>Visit MathMaker</button>
         </a>
+        <a href="https://github.com/McKlatch/MathMaker" rel="noopener noreferrer" target="_blank">
+          <span class="line">See the repo on Github</span>
+        </a>
       </p>
     </app-modal>
     <app-modal title="Stocks" image="/static/stocksanim.gif" imagealt="Buy and Sell Stocks" link="http://stocks.8bitephod.com/">
@@ -29,6 +32,9 @@
         <br><br>
         <a href="http://stocks.8bitephod.com/" rel="noopener noreferrer" target="_blank">
           <button>visit Stock Trader</button>
+        </a>
+        <a href="https://github.com/McKlatch/StockTrader" rel="noopener noreferrer" target="_blank">
+          <span class="line">See the repo on Github</span>
         </a>
       </p>
     </app-modal>
@@ -44,6 +50,9 @@
         <a href="http://JS30.8bitephod.com/" rel="noopener noreferrer" target="_blank">
           <button>visit McKlatch vs. JS30</button>
         </a>
+        <a href="https://github.com/McKlatch/JS30" rel="noopener noreferrer" target="_blank">
+          <span class="line">See the repo on Github</span>
+        </a>
       </p>
     </app-modal>
     <app-modal title="McKlatch" image="/static/McKlatch.jpg" imagealt="McKlatch" link="http://mcklatch.com/">
@@ -57,6 +66,9 @@
         <br><br>
         <a href="http://mcklatch.com/" rel="noopener noreferrer" target="_blank">
           <button>visit McKlatch.com</button>
+        </a>
+        <a href="https://github.com/McKlatch/McKlatch" rel="noopener noreferrer" target="_blank">
+          <span class="line">See the repo on Github</span>
         </a>
       </p>
     </app-modal>
@@ -122,5 +134,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.modal-desc button {
+  display: inline;
+}
+
+span.line {
+  display: inline-block;
+  white-space: pre;
+}
 </style>
