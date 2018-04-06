@@ -1742,7 +1742,8 @@
                 <g id="main">
                     <rect x="69" y="49" width="1" height="1" style="fill: #ffa728" />
                     <path d="M518,507V461H450v48h68v-2Zm-24-2h-1v1H475v-1h-2v1H454v-1h-1v-8h2v-2h-2v-8h2v-2h-2v-8h2v-2h-2v-8h2v-1h1v-2h17v1h1v2h1v-1h1v-2h17v1h1v2h1v-1h1v-2h17v2h2v8h-1v1h-1v1h1v1h1v7h-1v1h-1v1h1v1h1v7h-1v1h-1v1h1v1h1v7h-1v1h-1v1H495v-1Z" transform="translate(-449 -460)" style="fill: #ffa728" />
-                    <text x="69" y="48.8" text-anchor="end" font-size="1.2" fill="#00003130" lengthAdjust="spacing" id="ephod" class="clickable" @click="show('bible')">Ephod?</text>
+                    <text x="6.1" y="48.8" text-anchor="end" font-size="1.2" fill="#00003130" lengthAdjust="spacing" id="ephod" class="clickable" @click="show('bible')">Ephod?</text>
+                    <text x="69" y="48.8" text-anchor="end" font-size="1.2" fill="#00003130" lengthAdjust="spacing" id="ephod" class="clickable" @click="urlPush('https://github.com/McKlatch/8BitEphod')">see this on Github</text>
                     <polygon points="46 36 46 35 45 35 44 35 44 36 45 36 45 37 46 37 46 36" style="fill: #ffa728" />
                     <polygon points="24 35 24 36 25 36 25 37 26 37 26 36 26 35 25 35 24 35" style="fill: #ffa728" />
                     <polygon points="45 27 46 27 46 26 46 25 45 25 44 25 44 26 45 26 45 27" style="fill: #ffa728" />
@@ -1795,6 +1796,9 @@ export default {
       if (modal === '8' || modal === 'Bit' || modal === 'Ephod') return
       this.$router.push(modal)
       this.$modal.show(modal.toLowerCase())
+    },
+    urlPush (url) {
+      window.location.href = url
     }
   },
   created () {
