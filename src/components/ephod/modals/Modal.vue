@@ -92,6 +92,10 @@ export default {
   font-weight: 600;
 }
 
+.modal-desc p a:hover {
+  color: #ff8626;
+}
+
 .modal-desc button {
   font-size: 90%;
   color: #070705;
@@ -100,6 +104,10 @@ export default {
   display: block;
   margin: auto;
   border: 0;
+}
+
+.modal-desc button:hover {
+  background-color: #ff8626;
 }
 
 @media only screen and (min-width: 768px) {

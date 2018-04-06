@@ -46,6 +46,10 @@ export default {
   border: 0;
 }
 
+button:hover {
+  background-color: #ff8626;
+}
+
 @media only screen and (min-width: 768px) {
   .modal-content button {
     font-size: 180%;
