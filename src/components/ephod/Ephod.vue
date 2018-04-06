@@ -2,7 +2,7 @@
   <svg id="ephod" :class="{ blurout: modalActive }" xmlns="http://www.w3.org/2000/svg" width="70" height="50" viewBox="0 0 70 50" shape-rendering="crispEdges">
             <g id="sardius" @mouseenter="flash" @mouseleave="unflash" @click="show(gems.sardius)">
                 <polygon points="21 8 20 8 19 8 18 8 17 8 16 8 15 8 14 8 13 8 12 8 11 8 10 8 9 8 8 8 8 9 8 10 8 11 8 12 9 12 10 12 11 12 12 12 13 12 14 12 15 12 16 12 17 12 18 12 19 12 20 12 21 12 22 12 22 11 22 10 22 9 22 8 21 8" style="fill: #feb2bf" />
-                <text x="8.55" y="11.3" text-anchor="start" font-size="4" font-family="silkscreennormal" fill="#00003195" textLength="12.9" lengthAdjust="spacing">{{ gems.sardius }}</text>
+                <text x="8.4" y="12.1" text-anchor="start" font-size="6.9" font-family="silkscreennormal" fill="#00003195" textLength="12.9" lengthAdjust="spacing">{{ gems.sardius }}</text>
                 <rect x="23" y="14" width="1" height="1" style="fill: #ff5416" />
                 <rect x="22" y="14" width="1" height="1" style="fill: #ff193f" />
                 <rect x="21" y="14" width="1" height="1" style="fill: #ff1942" />
@@ -142,7 +142,7 @@
             </g>
             <g id="topaz" @mouseenter="flash" @mouseleave="unflash" @click="show(gems.topaz)">
                 <polygon points="41 8 40 8 39 8 38 8 37 8 36 8 35 8 34 8 33 8 32 8 31 8 30 8 29 8 28 8 28 9 28 10 28 11 28 12 29 12 30 12 31 12 32 12 33 12 34 12 35 12 36 12 37 12 38 12 39 12 40 12 41 12 42 12 42 11 42 10 42 9 42 8 41 8" style="fill: #7becff" />
-                <text x="28.55" y="11.3" text-anchor="start" font-size="4" fill="#00003195" textLength="12.9" lengthAdjust="spacing">{{ gems.topaz }}</text>
+                <text x="28.55" y="12.1" text-anchor="start" font-size="6.9" fill="#00003195" textLength="12.9" lengthAdjust="spacing">{{ gems.topaz }}</text>
                 <rect x="43" y="14" width="1" height="1" style="fill: #929644" />
                 <rect x="42" y="14" width="1" height="1" style="fill: #1c91a8" />
                 <rect x="41" y="14" width="1" height="1" style="fill: #1b92a7" />
@@ -282,7 +282,7 @@
             </g>
             <g id="carbuncle" @mouseenter="flash" @mouseleave="unflash" @click="show(gems.carbuncle)">
                 <polygon points="61 8 60 8 59 8 58 8 57 8 56 8 55 8 54 8 53 8 52 8 51 8 50 8 49 8 48 8 48 9 48 10 48 11 48 12 49 12 50 12 51 12 52 12 53 12 54 12 55 12 56 12 57 12 58 12 59 12 60 12 61 12 62 12 62 11 62 10 62 9 62 8 61 8" style="fill: #7aff8a" />
-                <text x="48.55" y="11.3" text-anchor="start" font-size="4" fill="#00003195" textLength="12.9" lengthAdjust="spacing">{{ gems.carbuncle }}</text>
+                <text x="47.4" y="12.1" text-anchor="start" font-size="5.7" fill="#00003195" textLength="15.25" lengthAdjust="spacing">{{ gems.carbuncle }}</text>
                 <rect x="63" y="14" width="1" height="1" style="fill: #8db401" />
                 <rect x="62" y="14" width="1" height="1" style="fill: #00b613" />
                 <rect x="61" y="14" width="1" height="1" style="fill: #00b814" />

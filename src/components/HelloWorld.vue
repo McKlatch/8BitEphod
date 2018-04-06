@@ -89,7 +89,7 @@ export default {
     return {
       gems: {
         // left 1
-        sardius: '8',
+        sardius: '^ ^ 8',
         // middle 1
         topaz: 'Bit',
         // right 1
