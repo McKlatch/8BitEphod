@@ -1793,7 +1793,7 @@ export default {
       })
     },
     show (modal) {
-      if (modal === '8' || modal === 'Bit' || modal === 'Ephod') return
+      if (modal === '^ ^ 8' || modal === 'Bit' || modal === 'Ephod') return
       this.$router.push(modal)
       this.$modal.show(modal.toLowerCase())
     },

@@ -5,7 +5,7 @@
     </div>
     <div class="modal-content">
       <p class="intro">
-        Creative base for apps made by <span class="line">David McClatchey</span>
+        Creative base for web apps made by <span class="line">David McClatchey</span>
       </p>
       <a v-for="link in links" :href="link.url" rel="noopener noreferrer" target="_blank" style="padding: 0.1vmin;">
         <button type="button">

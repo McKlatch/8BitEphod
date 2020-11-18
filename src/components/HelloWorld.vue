@@ -72,6 +72,23 @@
         </a>
       </p>
     </app-modal>
+    <app-modal title="ProvSoup" image="/static/ProvSoup.jpg" imagealt="ProvSoup" link="https://ProverbialSoup.com/">
+      <p>
+        <br>
+        Proverbial Soup
+        <br><br>
+        Proverbs of a nature which stimulate maturity and genuine progress for all kinds of purpose-driven people. Displayed as high quality images with embedded text in a perfect square for maximum sharability.
+        <br><br>
+        Made with Nuxt/VueJS using Tailwind. Hosted on Heroku with CloudFlare. Backend data on Firebase and images on firestore.
+        <br><br>
+        <a href="https://ProverbialSoup.com/" rel="noopener noreferrer" target="_blank">
+          <button>visit Proverbial Soup</button>
+        </a>
+        <a href="https://github.com/McKlatch/ProvSoup" rel="noopener noreferrer" target="_blank">
+          <span class="line">See the repo on Github</span>
+        </a>
+      </p>
+    </app-modal>
     <app-about/><app-bible/>
   </div>
 </template>
@@ -103,7 +120,7 @@ export default {
         // left 3
         jacinth: 'McKlatch',
         // middle 3
-        agate: '',
+        agate: 'ProvSoup',
         // right 3
         amethyst: '',
         // left 4
